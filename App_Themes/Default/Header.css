@@ -1,0 +1,23 @@
+/* ---------------------------------------------------------------------- */
+/*                                HEADER                                  */ 
+/* ---------------------------------------------------------------------- */
+
+
+/* -------------------- Header containing user's logo ------------------- */
+
+.header 
+{
+	float: left;
+	min-height: 79px;
+	height: auto !important;
+	height: 79px;
+	width: 100%;
+	background: #FFFFFF url(images/headMain.gif) no-repeat scroll top left;
+	color: #000000;
+}
+
+
+
+
+
+

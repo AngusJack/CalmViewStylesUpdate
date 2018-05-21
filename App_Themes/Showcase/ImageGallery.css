@@ -1,0 +1,60 @@
+
+div#ctl00_main_display
+{
+	background-color: #636364;
+	margin-top: 10px;
+	padding: 5px 0px;
+}
+
+div#ctl00_main_display h2
+{
+	color: #FFFFFF;
+	float: left;
+	margin: 2px 20px 0px 5px;
+}
+
+
+#ctl00_main_ddlView
+{
+	border: solid 1px #f2f2f2;
+}
+
+div#images div.clear
+{
+	clear: both;
+}
+
+
+
+
+div.gallerypicture div.picture a
+{
+	float: left;
+}
+
+div.gallerypicture div.picture a img
+{
+	border: none 0px #636364;
+}
+
+
+
+div.gallerypicture div.picture 
+{
+	float: left;
+	height: 155px;
+	overflow: hidden;
+	width: 155px;
+}
+
+div.gallerypicture
+{
+	float: left;
+	width: 33%;
+}
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+ul#ctl00_main_DSCoveryPagerBar1
+{
+	margin: 3px 0px 6px 0px;
+}
+
+ul#ctl00_main_DSCoveryPagerBar1 li,
+ul#ctl00_main_DSCoveryPagerBar1 li a
+{
+	padding-left: 0px;
+}

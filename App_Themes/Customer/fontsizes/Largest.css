@@ -1,0 +1,67 @@
+﻿body
+{
+	font-size: 1.2em !important;
+}
+
+div.field-collapsed br
+{
+	font-size: 1.5em !important;
+}
+
+#ctl00_main_DSCoverySearch1_ctl00_SearchText br
+{
+	font-size: 1.5em ! important;
+}
+
+div.field-collapsed input
+{
+	font-size: 1.0em;
+}
+
+div.field-expanded input
+{
+	font-size: 1.0em;
+}
+
+div.field-expanded label
+{
+	height: 1.5em !important;
+}
+
+#ctl00_search_DSCoverySearch1_ctl00_SearchText
+{
+	font-size: 1.0em;
+}
+
+#ctl00_main_ddlView
+{
+	font-size: 1.0em;
+}
+
+#headerlinks
+{
+	font-size: 0.8em;
+}
+
+#ctl00_main_DSCoverySearch1_ctl01_Button1
+{
+	font-size: 1.0em;
+}
+
+select#ctl00_main_DSCoverySearch1_ctl00_SearchText_Level_And,
+select#ctl00_main_DSCoverySearch1_ctl00_SearchText_Level_Or,
+select#ctl00_main_DSCoverySearch1_ctl00_SearchText_Level_Not
+{
+	font-size: 1.0em;
+}
+
+
+div#PageOptions
+{
+	width: 59%;
+}
+
+label.message
+{
+	width: 225px;
+}

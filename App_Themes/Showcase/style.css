@@ -1,0 +1,1014 @@
+/* n.b. style:
+	
+	min-height: 28px;
+	height: auto !important;
+	height: 28px;
+
+has been applied in several places the ordering is important and should not be changed. */
+
+
+/*
+.header 
+{
+	float: left;
+	min-height: 79px;
+	height: auto !important;
+	height: 79px;
+	width: 100%;
+}
+
+
+#headerlinks
+{
+    float: left;
+    height: 41px;
+    margin: 1px 0px 1px 0px;
+	width: 775px;
+}
+
+.homelink
+{
+	float: left;
+	height: 41px;
+	margin-right: 1px;
+	width: 192px;
+}
+
+.advancedsearchlink
+{
+	float: left;
+	height: 41px;
+	margin: 0px 1px 0px 1px;
+	width: 192px;
+}
+
+.showcaselink
+{
+	float: left;
+	height: 41px;
+	margin: 0px 1px 0px 1px;
+	width: 192px;
+}
+
+.imagegallerylink
+{
+	float: right;
+	height: 41px;
+	margin-right: 1px;
+	width: 192px;
+}
+
+ul.headerlinkslist
+{
+	margin: 0px;
+    padding: 0px;
+}
+
+ul.headerlinkslist li,
+ul#footerlinks li
+{
+	display: inline;
+	list-style: none;
+}
+
+.toplink-button 
+{
+	font-weight: bold;
+	padding-top: 10px;
+	height: auto !important;
+	width: auto !important;
+	text-align: center;
+}
+*/
+
+
+/*------------------------------ SITEMAP ------------------------------ */
+
+/*
+#DsCoveryManager1_image
+{
+	display: none;
+	height: 0px !important; 
+	width: 0px !important;
+}
+*/
+
+/*------------------------------ IMAGE GALLERY ------------------------------ */
+
+div.image
+{
+	border-top: solid 1px #636364;
+	float: left;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+	background-color: #f2f2f2;
+	height: auto !important;
+}
+
+div.imagealt
+{
+	border-top: solid 1px #636364;
+	float: left;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+}
+
+div.image a,
+div.imagealt a
+{
+	color: #636364;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#ctl00_main_gallery div.picture
+{
+	float: left;
+	overflow: hidden;
+	padding-right: 2px;
+	width: 100px;	
+	font-style: italic;
+	font-size: smaller;
+}
+
+div.galleryitem
+{
+	float: left;
+}
+
+div.images
+{
+	float: left;
+	width: 100%;
+}
+
+div.images div.image h2,
+div.images div.imagealt h2,
+div.description,
+div.link
+{
+	float: left;
+	margin-left: 1%;
+	width: 80%;
+}
+
+/*------------------------------ SHOWCASE ------------------------------ */
+
+div#showcase div.image,
+div#showcase div.imagealt
+{
+	width: 97%;
+}
+
+h2
+{
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 0px;
+}
+
+div#showcase div.image h2,
+div#showcase div.imagealt h2
+{
+	float: left;
+	margin-left: 1%;
+	width: 97%;
+}
+
+div.image a,
+div.imagealt a
+{
+	background-color:#636364;
+	border:1px solid #AAABB8;
+	color:#FFFFFF !important;
+	padding:2px;
+	float:left;
+}
+
+div.showcase-description
+{
+	float:left;
+	margin-left:1%;
+	width:80%;
+}
+
+
+
+
+
+/*------------------------------ UNDERVIEW ------------------------------ */
+
+div.Title
+{
+	margin-top: 20px;
+	font-weight: 700;
+	width: 97%;
+}
+
+table.underview
+{
+	max-width: 100%;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+tr.Title td
+{
+	background-color: #636364;
+	border: solid 1px #FFFFFF;
+	padding: 4px;
+	color: #FFFFFF;
+}
+
+tr.record td
+{
+	background-color: #f2f2f2;
+	border: solid 1px #FFFFFF;
+	padding: 4px;
+}
+
+noscript.BrowseTree
+{
+	margin: 5px;
+	border: solid 1px Red;
+	background-color: Silver;
+	padding: 3px;
+}
+
+
+
+
+
+/*------------------------------ DOCUMENT ORDERING ------------------------------ */
+
+table.UserStatusOptionsTableFormat
+{
+ float:right;   
+ border:0;
+}
+
+td.LogoutOption
+{
+    padding:0px;
+    
+}
+
+td.UserStatusOptionLinkDivider
+{
+    border-right:solid 1px #000000;
+    padding:5px;
+}
+
+td.UserstatusWelcomelbl
+{
+    padding-right:15px;
+}
+
+td.RegisterLink
+{
+    border-right:solid 1px #000000;
+    padding:5px;
+}
+
+td.LoginOption
+{
+    padding:5px;
+}
+
+.basketprintbtn
+{
+    padding-top:0px;
+}
+
+p.userwarning
+{
+    color:Red;
+    
+}
+
+.NoOrderItemSelectedMsg
+{
+    color:Red;
+    padding:4px;
+}
+
+.userstatus
+{
+    float: right;
+    padding:3px;
+}
+
+.cancelorderbtn
+{
+    float:right;
+}
+
+
+.vieworders
+{
+    float:right;
+}
+
+
+.myitems
+{
+    color:White;
+    float:right;
+    
+    
+    
+}
+
+.pastdatecalendarcolor
+{
+    background-color:Silver;
+}
+
+
+.certaindatecalendarcolor
+{
+    background-color:Gray;
+}
+
+.todaysdatecalendarcolor
+{
+    background-color: Blue;
+}
+
+.loginbtn
+{
+ padding:1px;   
+}
+
+.loginformtxtbx
+{
+ padding:2px;   
+ width:130px;
+ 
+}
+
+td.profileform
+{
+    padding-left:22px;
+}
+
+.ProfileformTxtbx
+{
+ width:150px;   
+}
+
+table.baskettable
+{
+    width:400px;
+    float:right;
+        
+}
+
+.BasketitemsAddConfPanel
+{
+    background-color:#636364;
+    text-align:center;
+    color:White;
+}
+
+.RecorditemsAddConfPanel
+{
+    background-color:#636364;
+    text-align:center;
+    color:White;
+    
+}
+
+.passwordsmismatchtext
+{
+ color:Red;   
+ padding-bottom:20px;
+ vertical-align:bottom;
+ margin-top: 100px;
+ 
+}
+
+.oldpasswordmismatch
+{
+ color:Red;   
+ padding-bottom:20px;
+ vertical-align:bottom;
+ 
+}
+
+.regusererrormsg
+{
+ color:Red;
+ font-weight:bold;   
+}
+
+
+.ConfirmPasswordChangetext
+{
+font-weight:bold;
+color:Red;
+vertical-align:bottom;
+padding-top:20px;
+
+    
+}
+
+table.BasketEditorTable
+{
+    padding-top:20px;
+    padding-bottom:20px;
+  
+}
+
+td.BasketEditortd
+{
+    background-color:#FaF5E6;
+    text-align:center;
+    padding:5px;
+    
+}
+
+td.BasketEditortdremove
+{
+    background-color:#FaF5E6;
+    text-align:center;
+    padding:5px;
+}
+
+td.BasketLineEditortd
+{
+    background-color:#FFFFFF;
+    text-align:center;
+    padding:5px;
+    
+}
+
+td.BasketPreviewtd
+{
+    background-color:#FaF5E6;
+    text-align:center;
+    padding:10px;
+}
+
+table.BasketPreviewtable
+{
+    border: solid 1px #FFFFFF;
+    padding-top:20px;
+    
+}
+
+
+td.BasketPreviewLinetd
+{
+    text-align:center;
+}
+
+
+.changepasswordtable
+{
+ /* padding-bottom:45px; */
+ 
+}
+
+.datestextbox
+{
+    font-weight:bold;
+    vertical-align:bottom;
+    
+        
+}
+
+.orderCalendar
+{
+ padding-top:40px;   
+}
+
+
+table.calendarkeystable
+{
+    border:solid 1px #000000;
+    width:150px;
+    text-align:center;
+}
+
+table.calendartable
+{  
+    width:200px;
+    border: 1px solid #000000;
+    padding:8px;
+}
+
+
+td.calendartd
+{
+    text-align:center;
+    border:1px solid #000000;
+    background-color:#FaF5E6;
+        
+}
+
+td.calendartd2
+{
+    text-align:center;
+    border:1px solid #000000;
+    
+}
+
+
+table.DisplayOrderTable
+{
+ width:80%;
+ background-color:White;
+ border:1px #000000 solid;
+     
+}
+
+
+td.DisplayOrdertd
+{
+    background-color:#FaF5E6;
+    text-align:center;
+    border:1px solid Gray;
+            
+}
+
+td.DisplayOrdertditem
+{
+ background-color:White;
+ text-align:center;   
+ border:1px solid Gray;
+}
+
+
+tr.DisplayOrdertr
+{
+ border:1px solid #000000;   
+}
+
+
+div.DisplayOrderDate
+{
+    font-weight:bold;
+    padding-top:10px;
+    
+}
+
+td.OrderBasketLinetd
+{
+    text-align:center;    
+}
+
+table.OrderBasketEditorTable
+{
+    border: 1px solid Gray;
+    padding-bottom:20px;
+}
+
+
+td.OrderBasketEditortdtop
+{
+    background-color:#E0E0E0;
+    text-align:center;
+}
+
+td.OrderBasketEditortd
+{
+    background-color:#FaF5E6;
+    text-align:center;
+}
+
+
+table.OrderPreviewtable
+{
+    border:1px solid #000000;
+        
+}
+
+
+td.OrderPreviewtd
+{
+    background-color:#E0E0E0;
+    
+}
+
+
+
+table.OrderPreviewtable2
+{
+    border:1px solid #000000;
+    width:300px;
+    background-color:#E0E0E0;
+    padding-bottom:20px;
+    
+}
+
+
+table.Previewtable2
+{
+    border:0px #FFFFFF;
+    width:300px;
+    background-color:#FFFFFF;
+    padding-bottom:20px;
+    
+}
+
+
+table.OrderPreviewtable3
+{
+    border:1px solid #000000;
+    width:100%;
+    background-color:White;
+    
+}
+
+
+td.OrderPreviewtd2
+{
+    background-color:#FaF5E6;
+    text-align:center;
+    
+}
+
+
+table.OrderPreviewtable4
+{
+    border:1px solid #000000;
+    width:100%;
+    background-color:White;
+    
+}
+
+
+table.UserAgreementTable
+{
+ padding:5px;   
+}
+
+
+table.ViewOrdersTable
+{
+    background-color:#E0E0E0;
+    border:1px solid #000000;
+    padding-bottom:20px;
+}
+
+
+table.ViewOrderTable2
+{
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+}
+
+
+.offlineformrequeststextbox
+{
+ width:261px;
+ height:148px;
+ vertical-align:top
+ 
+}
+
+.offlineformtextbox
+{
+    width:261px;
+}
+
+
+.offlineformtd
+{
+
+width:100px;
+text-align:right;
+vertical-align:top;
+
+}
+
+.emailbtn
+{
+   margin-left: 270px;
+    
+}
+
+
+.savebtn
+{
+    margin-left: 215px;
+}
+
+div.BasketitemsAddConfPanel 
+{   
+    opacity: 0.99; 
+    filter: alpha(opacity=99); 
+    font-family: Arial;
+    color: #FFFFFF;
+    /*margin-right:200px;*/
+    position:fixed;
+    top:134px;
+    right:445px;
+}
+
+
+div.RecorditemsAddConfPanel 
+{   
+    opacity: 0.99; 
+    filter: alpha(opacity=99); 
+    font-family: Arial;
+    color: #FFFFFF;	
+    position:fixed;
+    top:134px;
+    right:445px;
+    
+}
+
+
+div.BasketitemsAddConfPaneloff 
+{   
+    opacity: 0.99; 
+    filter: alpha(opacity=99); 
+    font-family: Arial;
+    color: #FFFFFF;	
+    position:fixed;
+    top:104px;
+    right:442px;
+    /*margin-right: 200px;*/
+    
+}
+
+div.RecorditemsAddConfPaneloff 
+{   
+    opacity: 0.99; 
+    filter: alpha(opacity=99); 
+    font-family: Arial;
+    color: #FFFFFF;	
+    position:fixed;
+    top:104px;
+    right:442px;
+}
+
+.emailvalidationmsg
+{
+ float:left;   
+}
+
+.changepasswordsavebtn
+{
+    margin-left: 187px;
+    
+}
+
+
+.changepasswordValidationSummary
+{
+ 
+}
+
+.hiddentext
+{
+ color:White;
+ padding-bottom:30px;   
+
+}
+
+
+.emailsentmsg
+{
+ color:Red;   
+ padding-top:20px;
+ padding-left:5px;
+}
+
+
+.errorclasstext
+{
+ color:Red;
+    
+}
+
+div.layout
+{
+ padding-bottom:30px;   
+}
+
+p.choosedatetext
+{
+    font-weight:bold;
+    
+}
+
+p.notavailabletext
+{
+  
+}
+
+p.basketpagetitle
+{
+    font-weight:bold;    
+    
+}
+
+p.closedkeytext
+{
+    
+}
+
+p.pastkeytext
+{
+    
+}
+
+div.readterms
+{
+ font-weight:bold;   
+}
+
+p.detailssaved
+{
+    
+}
+
+p.incorrectdetails
+{
+    
+}
+
+p.welcometextstring
+{
+    
+}
+
+p.welcometext
+{
+    
+}
+
+p.welcomemessage
+{
+    
+}
+
+
+.usernametextbox
+{
+    width:167px;
+    
+}
+
+.passwordtextbox
+{
+    width:167px;
+}
+
+.loginerrorlbl
+{
+    color:Red;    
+    
+}
+
+.usernamelbl
+{
+    font-weight:bold;
+    margin-right:1px;
+    text-align:right;
+    margin-left:14px;
+}
+
+.passwordlbl
+{
+    font-weight:bold;
+    text-align:right;
+}
+
+.closedDatesError
+{
+    color:Red;
+ 
+}
+
+p.redirecttext
+{
+    color:Red;
+}
+
+
+p.instructionstext
+{
+    font-weight:bold;
+    
+}
+
+.basketbtns
+{
+    width:86%;
+}
+
+.jsenabled
+{
+    
+}
+
+
+.logoutlinkenabled
+{
+    margin-top:7px;
+    
+}
+
+.logoutlinkdisabled
+{
+    
+}
+
+.logoutbtncss
+{
+    background:none!important;      
+    border:none;       
+    /*border is optional*/      
+    /*border-bottom:1px solid;*/
+    height:17px; 
+    color:#636364;
+    margin-right:0px;
+    width:55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:7px;
+    text-decoration:underline;
+        
+}
+
+.vieworderslinkenabled
+{
+}
+
+.vieworderslinkdisabled
+{   
+}
+
+.viewordersbtncss
+{
+    background:none!important;      
+    border:none;       
+    /*border is optional*/      
+    /*border-bottom:1px solid;*/
+    height:17px; 
+    color:#636364;
+    margin-right:0px;
+    width:70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0px;
+    text-decoration:underline;
+    
+}
+
+.pendordersbtn
+{
+    background:none!important;      
+    border:none;       
+    /*border is optional*/      
+    /*border-bottom:1px solid;*/
+    height:17px; 
+    color:#636364;
+    margin-right:0px;
+    width:97px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0px;
+    text-decoration:underline;
+}
+
+.pastordersbtn
+{
+    background:none!important;      
+    border:none;       
+    /*border is optional*/      
+    /*border-bottom:1px solid;*/
+    height:17px; 
+    color:#636364;
+    margin-right:0px;
+    width:97px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0px;
+    text-decoration:underline;
+}
+
+.enabledpanel
+{
+    
+}
+
+.disabledpanel
+{
+    
+}
+
+.jsenabledpanel
+{
+}
+
+
+.jsdisabledpanel
+{
+}
+
+.emailerrormsg
+{
+    color: Red;
+}

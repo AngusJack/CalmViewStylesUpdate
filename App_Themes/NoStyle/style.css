@@ -1,0 +1,114 @@
+body
+{
+}
+
+div#headerMenu
+{
+	clear:both;
+}
+
+#PageOptions
+{
+	float: left;
+}
+
+#search
+{
+	float: right;
+}
+
+ul#pageControls
+{
+	margin: 0px;
+}
+
+/* Hide font size switcher */
+li.FontSizeSwitcherContainer
+{
+	display: none;
+}
+
+li.StyleSwitcherContainer
+{
+	list-style-type: none;
+}
+
+div#headerlinks
+{
+	clear:both;
+	float: left;	
+	background-color:#f0f0f0;
+	color: Black;
+	width: 100%;
+	margin-top: 5px;	
+	margin-bottom: 20px;
+}
+
+div#headerlinks ul
+{
+	margin: 0px;
+}
+
+div#headerlinks li
+{
+	list-style-type: none;
+	display: block;
+	float: left;
+	width: 20%;
+	vertical-align: top;	
+}
+
+div.advancedsearchlink li
+{
+	width: 100% !important;	
+}
+
+.advancedsearchlink>div>div>ul>li>ul li
+{
+	display: inline-block;	
+	width: auto !important;	
+	margin-right: 5px;	
+}
+
+div.navigationmenu
+{
+	float:left;
+	clear: left;	
+	width: 25%;
+}
+
+div.content
+{
+	float: left;
+	clear: right;
+	padding: 5px;	
+	width: 72%;
+}
+
+div.bottom
+{
+	clear: both;
+}
+
+
+.collapsemenu
+{
+	display: none;
+}
+
+div.picture
+{
+	display: none;
+}
+
+
+.breadcrumb li:after
+{
+	content: " > ";
+}
+
+.breadcrumb a:after
+{
+	/* Clear content for FireFox */
+	content: "";
+}

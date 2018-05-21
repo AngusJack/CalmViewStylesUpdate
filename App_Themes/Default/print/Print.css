@@ -1,0 +1,162 @@
+body
+{ 
+	color:#000000 ! important; 
+	background:#ffffff ! important;
+	font-family:"Times New Roman", Times, serif; 
+	font-size:12pt ! important; 
+} 
+
+div#headerlinks, div#headerMenu, div#pageoptions, div#top, div#OutlineColumn3, div.picture, div#link,
+div.bottom, div#welcomepicture, a.Start, a.Prev, a.Next, a.End, div.image a, div.imagealt a, div.header,
+table img
+{
+	display:none ! important;
+}
+
+div#welcomecontent, div#whatsnewcontent, div#welcometext
+{
+	background:inherit ! important;
+	color:inherit ! important;
+	float:left;
+	width:100% ! important;
+}
+
+div.whatsnew_image, div.whatsnew_imagealt 
+{
+	border-top:none;
+	border-bottom:solid 1px #000000;
+	padding:5px 0px 0px 0px;
+	width:100% ! important;
+}
+
+div#ctl00_main_whatsnewtitle, #ctl00_main_welcometitle
+{
+	font-size:1.5em;
+	font-style:normal;
+	font-weight:normal;
+	padding:10px 0px 10px 0px;
+}
+
+div.row, div.alternateRow
+{
+	border-bottom:solid 1px #000000;
+}
+
+div.repeaterheader
+{
+	background-color:#FFFFFF;
+	color:#000000;
+	float:left;
+	width:100%;
+}
+
+td.tabletitle, td.tablevalue
+{
+	background-color:#ffffff;
+	color:#000000;
+	vertical-align:top;
+	width:15%;
+}
+
+span#ctl00_main_DSCoveryContainer1 table a
+{
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+div#ctl00_main_ctl00n0Nodes table td
+{
+	white-space:normal ! important;
+}
+
+div#ctl00_main_ctl00 table a
+{
+	background-color:#ffffff;
+	color:#000000;
+}
+
+ul#ctl00_main_DSCoveryPagerBar1 li
+{
+	list-style:none;
+}
+
+ul#ctl00_main_DSCoveryPagerBar1
+{
+	margin:4px 0px 4px 0px;
+	padding:0;
+}
+
+span.headertitle
+{
+	float:left;
+	width:65%;
+}
+
+span.headerauthor
+{
+	float:left;
+	width:30%;
+}
+
+h2
+{
+	margin:5px 0px 5px 0px;
+}
+
+span.rowtitle
+{
+	float:left;
+	margin-right:1%;
+	width:65%;
+}
+
+span.rowauthor
+{
+	float:left;
+	width:30%;
+}
+
+div.row, div.alternateRow
+{
+	float:left;
+	padding:4px 0px;
+	width:100%;
+}
+
+#ctl00_main_DSCoveryContainer1 a, #ctl00_main_DSCoveryContainer1 a:active, #ctl00_main_DSCoveryContainer1 a:visited
+{
+	color:#000000;
+	text-decoration:none;
+}
+
+div.image, div.imagealt 
+{
+	border-top:1px solid #000000;
+	float:left;
+	padding:5px 0px;
+	width:100%;
+}
+
+/* Get rid of left border */
+div.site
+{
+	border: none;
+}
+
+/* Hide bookmarks */
+p.seperator
+{
+	display: none ! important;
+}
+
+/* Show images on record */
+.tablevalue img
+{
+	display: block ! important;
+}
+
+.PagerBarControl, .PageHeader, .PageFooter, .userinfo, .breadcrumb, .BasketEditortdremove, .basketremovebtn, .basketprintbtn, .basketorderbtn 
+{
+    display: none;
+}

@@ -1,0 +1,196 @@
+﻿
+
+/* Advanced search control */
+.AdvancedSearch, 
+.AdvancedSearch > div
+{
+	display: block;
+	float: left;
+	width: 100%;	
+}
+
+/* Border around advanced search screen */
+.AdvancedSearch fieldset
+{	
+	background: #f2f2f2 none repeat scroll 0%;
+	border: solid 2px #636364;
+	float: left;
+	width: 90%;
+	padding: 5px;
+}
+
+
+/* Error message box */
+.AdvancedSearchError
+{	
+	background-color: Red;
+    float: left;
+    height: auto;
+    padding: 5px;
+    width: 97%;
+    border: solid 3px #A52A2A;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    font-weight: bold;        
+    margin-left: 0px !important;
+}
+
+/* Container that contains the search fields */
+.AdvancedSearchFields
+{
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.AdvancedSearchFields input.tooltip
+{
+	color: gray;
+	font-style: italic;
+}
+
+div.field-collapsed, 
+div.field-expanded
+{
+	margin-bottom: 10px;
+}
+
+
+/* Anchors within collapsed field */
+div.field-collapsed a,
+div.field-expanded a
+{
+	cursor: pointer;
+	margin-left: 0px;
+}
+
+div.collapsesearchterm,
+div.expandsearchterm
+{	
+	float: left;
+	text-align: left;
+	width: 15px;
+	height: 18px;
+}
+
+
+/* Field label */
+label.title-expanded,
+label.title-collapsed
+{
+	font-weight: bold;
+}
+
+/* Search term expansion */
+a.expandsearchterm
+{	
+	width: 30% !important;
+	/*
+	position: relative;
+	top: -12px;
+	*/
+	text-decoration: none;	
+}
+
+a.expandsearchterm:before
+{
+	content: url(images/arrowRight.gif);
+	height: 15px;	
+	width: 15px;
+	vertical-align: middle;
+}
+
+a.collapsesearchterm
+{	
+	padding-top: 0.5em;	
+	/*position: relative;
+	top: -15px;		*/
+	text-decoration: none;
+}
+
+a.collapsesearchterm:before
+{
+	content: url(images/arrowTop.gif);	
+	height: 15px;	
+	width: 15px;
+	vertical-align: middle;
+}
+
+span.AdvancedSearchCriteriaLabel
+{
+	margin-left: 15px;
+	margin-right: -15px;
+}
+
+div.field-collapsed
+{
+	padding-bottom: 0px !important;
+	padding-top: 0px !important;
+	height: 10% !important;
+	clear: both;
+}
+
+div.field-collapsed select
+{
+	margin-bottom: 8px;
+}
+
+
+/* Search button container */
+.AdvancedSearchButtons
+{
+	display: block;
+	float: left;
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Advanced search button */
+.AdvancedSearchButton
+{	
+	border-width: 1px;
+	border-style: solid;	
+	cursor: pointer;		
+	background-color: #636364;
+	border-color: #AAABB8;
+	color: #FFFFFF;	
+}
+
+.AdvancedSearchToolButton
+{
+	margin-left: 10px;	
+	border-width: 1px;
+	border-style: solid;	
+	cursor: pointer;		
+	background-color: #636364;
+	border-color: #AAABB8;
+	color: #FFFFFF;			
+	width: 6em;		
+}
+
+div.field-expanded select
+{
+	margin-bottom: 0.8em !important;
+}
+
+div.field-expanded br
+{	
+	font-size: 0px !important;
+}
+
+.AdvancedSearchField 
+{
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+}
+
+a.collapsesearchterm,
+a.expandsearchterm
+{
+	display: block;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,110 @@
+/*------------------------------ Menu bar ------------------------------ */
+
+
+#headerlinks
+{
+    float: left;
+    height: 41px;
+    margin: 1px 0px 1px 0px;
+	width: 775px;
+}
+
+ul.headerlinkslist li
+{
+	display: inline;
+	list-style: none;
+	
+}
+
+.toplink-button 
+{
+	font-weight: bold;
+	padding-top: 10px;
+	height: auto !important;
+	width: auto !important;
+	text-align: center;
+}
+
+
+
+.homelink
+{
+	float: left;
+	height: 41px;
+	margin-right: 1px;
+	width: 192px;
+	
+}
+
+.advancedsearchlink
+{
+	float: left;
+	height: 41px;
+	margin: 0px 1px 0px 1px;
+	width: 192px;
+	
+	
+}
+
+.showcaselink
+{
+	float: left;
+	height: 41px;
+	margin: 0px 1px 0px 1px;
+	width: 192px;
+}
+
+.imagegallerylink
+{
+	float: right;
+	height: 41px;
+	margin-right: 1px;
+	width: 192px;
+}
+
+ul.headerlinkslist
+{
+	margin: 0px;
+    padding: 0px;
+}
+
+.advancedsearchlink a,
+.advancedsearchlink a:visited,
+.homelink a,
+.homelink a:visited,
+.imagegallerylink a,
+.showcaselink a,
+.showcaselink a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.advancedsearchlink a, advancedsearchlink a:visited
+{          
+       margin-top:10px;
+}
+
+
+
+.homelink
+{
+	background: #FFFFFF url(images/headerlink_home.gif) no-repeat scroll top left;
+}
+
+.imagegallerylink
+{
+	background: #FFFFFF url(images/headerlink_imagegallery.gif) no-repeat scroll top left;
+}
+
+.showcaselink
+{
+	background: #FFFFFF url(images/headerlink_showcase.gif) no-repeat scroll top left;
+}
+
+.advancedsearchlink
+{
+    background: #FFFFFF url(images/headerlink_search.gif) no-repeat scroll top left;
+}
+

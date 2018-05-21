@@ -1,0 +1,110 @@
+/*advanced search menu*/
+.foo {}
+
+ul.AspNet-Menu 
+{
+    position: relative;
+    background: url(images/headerlink_search.gif) no-repeat scroll left top !important;
+    width: 192px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+li.AspNet-Menu-WithChildren
+{
+	height: 41px;
+	background: url(images/headerlink_search.gif) no-repeat scroll left top ! important;
+	width: 192px;
+}
+
+li.AspNet-Menu-WithChildren span.AspNet-Menu-NonLink
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 10px;
+	height: 31px !important;
+	width: auto !important;
+	background: url(images/arrowBottom.gif) no-repeat right center;
+	
+	/*background: #FFFFFF url(images/headerlink_search.gif) no-repeat scroll top left;*/
+    
+    text-align: center;
+    cursor: default;
+    display: block;
+    text-decoration: none;
+    float: none !important;
+}
+
+ul.AspNet-Menu ul
+{
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+	z-index: 2;
+	width: 192px;
+    left: 0;
+    top: 100%;
+}
+
+ul.AspNet-Menu li
+{
+    position: relative;
+    list-style: none;
+    float: left;
+    text-align: center;
+	display: block;
+	background: none;
+	margin: 0;
+	padding: 0;
+	z-index: auto !important;
+}
+
+ul li.AspNet-Menu-Leaf
+{
+	border-top: solid 2px white;
+	z-index: 0;
+	background-color: #00a5df;
+	text-align: left;
+    width: 192px;
+}
+
+ul li.AspNet-Menu-Leaf a
+{
+	padding: 8px 0px 8px 8px;
+	display: block;
+    text-decoration: none;
+    float: none !important;
+}
+
+ul.AspNet-Menu li:hover ul
+{
+	display: block;
+	visibility: visible;
+	position: absolute;
+	z-index: 999;
+}
+
+ul.AspNet-Menu li:hover
+{
+	position: relative;
+	background-color: #E0E0E0;
+	z-index: 1000;
+}
+	 
+ul.AspNet-Menu li.AspNet-Menu-Hover
+{
+    background: #E0E0E0;
+}
+
+ul.AspNet-Menu li:hover ul a, 
+.PrettyMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul a,
+ul.AspNet-Menu li.AspNet-Menu-Hover ul span,
+ul.AspNet-Menu li.AspNet-Menu-Hover li.AspNet-Menu-Hover ul span
+{
+    color: #000000;
+}
+
+
+

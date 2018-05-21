@@ -1,0 +1,59 @@
+/*------------------------------ OVERVIEW ------------------------------ */
+
+table.overview
+{
+	width: 100%;		
+	border-collapse: separate;
+	border-spacing: 0px;
+	border: none;
+	clear: left;
+	
+	/*	
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	*/
+}
+
+table.overview th
+{	
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #636364;		
+}
+
+table.overview th.sorted
+{
+	background-color: #AAABB8;
+}
+
+table.overview th.notsorted:hover, table.overview th.sorted:hover
+{
+	/* Highlight sortable overview heading when mouse is over */
+	background-color: #AAABB8;
+}
+
+table.overview td, table.overview th
+{
+	padding: 5px;	
+	border: solid 1px White;
+}
+
+table.overview tr.record
+{
+	/*vertical-align: text-top;*/
+	border-bottom: solid 1px #636364;
+	background-color: #e0e0e0;
+	/*cursor: pointer;*/
+}
+
+table.overview tr.record:hover
+{
+	background-color: #FFFFFF;
+}
+
+table.overview tr.record td
+{
+	border-bottom: solid 1px #636364;
+	overflow: visible;
+	width: auto;
+}

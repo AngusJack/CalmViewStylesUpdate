@@ -1,0 +1,5 @@
+<%@ Register Assembly="Axiell.Discovery.UI" Namespace="Axiell.Discovery.UI" TagPrefix="discovery" %>
+
+<discovery:Theme runat="server" SkinId="ThemeStyles" >        
+    <discovery:Style CssUrl="~/App_Themes/NoStyle/style.css" />           
+</discovery:Theme>

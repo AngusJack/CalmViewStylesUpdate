@@ -1,0 +1,38 @@
+.advancedsearchlink ul.AspNet-Menu
+{
+	/* 
+    IE6 needs this massive hint to stop cutting off the bottom 
+	of the advanced search menu item.
+    */	
+	height: 100%;	
+}
+
+div.site
+{
+	/* 
+	IE 6 takes the left border into account with the width 
+	causing all the floats to disappear. Add the 25 pixel 
+	left border to make it behave itself. 
+    */
+	width: 775px;		
+}
+
+
+div#headerMenu
+{
+	/* Div fills entire screen */
+	width: 775px;	
+}
+
+div#PageOptions 
+{
+	/* Div fills entire screen */
+	width: 400px;
+}
+
+
+.AdvancedSearch fieldset
+{	
+	width: 95%;
+}
+

@@ -1,0 +1,96 @@
+/*
+ * The content that appears on Default.aspx
+ */
+
+div#welcome
+{
+	width:100%;	
+}
+
+/*
+ * The "Welcome" panel
+ */
+h1#welcometitle
+{	
+	background-color: #636364;
+	float: left;
+	width: 99%;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	padding-left: 1%;
+	padding-bottom: 2px;
+	margin: 1px 1px 0px 0px;
+}
+
+div#welcomecontent
+{
+	float: left;
+	width: 67%; /*386px;*/
+	background-color: #FFFFFF;
+	padding: 0px 2px 0px 1px;
+	overflow: hidden;
+}
+
+div#welcomepicture
+{
+	background: url(images/logo.gif) no-repeat scroll left top;
+	border-top: 1px solid white;
+	float: left;
+	height: 156px;
+	width: 580px;
+}
+
+div#welcometext
+{
+	float: left;
+	margin-left: 1%;
+	width: 97%;
+}
+
+
+/*
+ * What's new panel
+ */
+
+div#whatsnewcontent 
+{
+	float: right;
+	margin-top: 1px;
+	margin-right: 0px;
+	padding: 0px;	
+	width: 187px;
+}
+	
+h1#ctl00_main_whatsnewtitle
+{
+	background-color: #636364;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 1px;
+	margin: 0px;
+		
+	width: 100%;
+}
+
+div#whatsnewcontent div.picture
+{
+	font-style: italic;
+	font-size: smaller;	
+}
+
+/*
+Showcase theme specific styling
+*/
+#whatsnewcontent
+{
+    display:none;
+    width: 0;
+}
+
+div#welcomecontent
+{
+    width: 100%;
+}
+       

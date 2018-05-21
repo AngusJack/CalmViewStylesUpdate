@@ -1,0 +1,144 @@
+
+body
+{
+	font-size: 0.8em;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    background-color: #FFFFFF;
+	color: #000000;	
+}
+
+
+/* ------------------------  navigation menu styles start  ------------------------ */
+
+div.menulink
+{
+	 background-color: #c0c0c0;
+	
+}
+
+div.submenulink
+{
+	background-color: #e0e0e0;
+}
+
+div.collapsemenu
+{
+	background: Transparent url(images/collapse.gif) no-repeat center center;
+	cursor: pointer;
+}
+
+div.expandmenu
+{
+	background: Transparent url(images/expand.gif) no-repeat center center;
+	cursor: pointer;
+}
+
+ul#ctl00_tvwMenu_UL li
+{
+	/* n.b to change menu left hand border colour update image App_Themes/Default/images/menuborder.png */
+	background: url(images/menuborder.png);
+}
+
+div.alternateRow 
+{
+	border-bottom: 1px solid #636364;
+	float: left;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+div.repeaterheader
+{
+	background-color: #636364;
+	color: #FFFFFF;
+	float: left;
+}
+
+span.headerauthor,
+span.headertitle,
+span.rowauthor,
+span.rowtitle
+{
+	float: left;
+}
+
+span.headerauthor,
+span.rowauthor
+{
+	width: 193px;
+}
+
+span.headertitle 
+{
+	width: 380px;
+}
+
+div.row
+{
+	float: left;
+}
+
+span.headerauthor,
+span.headertitle
+{
+	padding-top: 5px;
+}
+
+span.headertitle h2,
+span.rowtitle
+{
+	margin-left: 4px;
+	width: 376px;
+}
+
+div#recordnavigation
+{
+	float: left;
+	width: 100%;
+}
+
+span#ctl00_main_DSCoveryContainer1 table
+{
+	clear: both;
+	width: 100%
+}
+
+span#ctl00_main_DSCoveryContainer1 table a
+{
+	color: #636364;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+.ctl00_main_ctl00_0
+{
+	color: #636364;
+}
+
+a
+{
+	color: #636364;
+}
+
+.languageselector
+{
+    float: right;
+    margin-right: 1em;
+}
+
+.languageselector a
+{
+    border: none;
+    padding-left: 0.5em;
+}
+
+.languageselector img
+{
+    border: none;
+}

@@ -1,0 +1,28 @@
+<%@ Register Assembly="Axiell.Discovery.UI" Namespace="Axiell.Discovery.UI" TagPrefix="discovery" %>
+
+<discovery:Theme runat="server" SkinId="ThemeStyles" >    
+    <discovery:Style CssUrl="AdvancedSearch.css" />
+    <discovery:Style CssUrl="AdvancedSearchMenu.css" />    
+    <discovery:Style CssUrl="Basic.css" />    
+    <discovery:Style CssUrl="Bookmarks.css" />        
+    <discovery:Style CssUrl="Breadcrumb.css" />                
+    <discovery:Style CssUrl="Default.css" />                        
+    <discovery:Style CssUrl="Footer.css" />                            
+    <discovery:Style CssUrl="Header.css" />                                
+    <discovery:Style CssUrl="ImageGallery.css" />                                    
+    <discovery:Style CssUrl="jam.css" />                                        
+    <discovery:Style CssUrl="MenuBar.css" />                                            
+    <discovery:Style CssUrl="NavigationMenu.css" />                                                    
+    <discovery:Style CssUrl="Outline.css" />                                                    
+    <discovery:Style CssUrl="Overview.css" />                                                        
+    <discovery:Style CssUrl="PagerBar.css" />                                                        
+    <discovery:Style CssUrl="RecordView.css" />                                                            
+    <discovery:Style CssUrl="Style.css" />                                                                
+    <discovery:Style CssUrl="ToolBar.css" />                                                                
+    <discovery:Style CssUrl="WhatsNew.css" />                                                                    
+    <discovery:Style CssUrl="Images/Images.css" Translatable="true" />
+    <discovery:Style CssUrl="IE6.css" ConditionalCommentExpression="[if lte LE 6]" />
+    
+    <discovery:Style CssUrl="fontsizes" OptionName="FontSize" DefaultOptionValue="Medium" />    
+    <discovery:Style CssUrl="print/Print.css" TargetMedia="print" />
+</discovery:Theme>

@@ -1,0 +1,48 @@
+
+.recordcontext 
+{
+	padding-top: 5px;
+	padding-bottom: 10px;	
+}
+
+/* Hide expand / contract buttons */
+.recordcontext .AspNet-TreeView-Collapse, .recordcontext .AspNet-TreeView-Expand
+{
+	display: none;		
+}
+
+.recordcontext .AspNet-TreeView ul
+{	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.recordcontext .AspNet-TreeView li
+{		
+	background-image: url( 'images/page.png' );
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 20px;
+	margin-top: 3px;	
+}
+
+
+/*------------------------------ RECORD ------------------------------*/
+
+td.tabletitle
+{
+	background-color: #636364;
+	color: #FFFFFF;
+	vertical-align: top;		
+}
+
+td.tablevalue
+{
+	background-color: #f2f2f2;	
+}
+
+span.HIT
+{
+	background-color: Yellow;
+}

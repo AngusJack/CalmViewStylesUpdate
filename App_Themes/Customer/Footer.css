@@ -1,0 +1,62 @@
+   
+/* ---------------------------------------------------------------------- */
+/*                                Footer                                  */ 
+/* ---------------------------------------------------------------------- */
+
+
+/* ------------------------ Main footer container ----------------------- */
+
+div.bottom
+{
+	float: left;
+	width: 775px;
+}
+
+/* -------------------------- Footer toolbar ---------------------------- */
+
+div#footer
+{
+	float: left;
+	padding: 8px 0px;
+	width: 100%;
+	background-color:  #ff5252;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	color: #FFFFFF;
+}
+
+div#footer a
+{
+	color: #FFFFFF;
+}
+
+
+div#footer ul#footerlinks
+{
+	float: left;
+	margin: 0px;
+	padding-left: 40px;
+}
+
+div#footer ul#footerlinks li
+{
+	display: inline;
+	list-style: none;
+}
+
+
+div#footer ul#footerlinks li#title
+{
+	font-weight: bold;
+}
+
+
+/* ----------------------- "Powered by" message ------------------------- */
+div.dsfooter
+{
+    float: right;
+    font-size: 0.8em;
+    text-align: right;
+    padding-bottom: 5px;
+} 
+

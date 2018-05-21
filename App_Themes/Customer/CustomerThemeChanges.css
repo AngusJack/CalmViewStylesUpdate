@@ -1,0 +1,64 @@
+/* Patch file to retain styles in customer's theme */
+
+/* Navigation menu */
+.navigationmenu div.AspNet-TreeView li.AspNet-TreeView-Leaf
+{
+	margin-left:0px !important;
+}
+
+div.AspNet-TreeView ul li 
+{
+	padding:0px !important;
+	white-space: normal !important;	
+}
+
+/* Record Context */
+.recordcontext .AspNet-TreeView-Collapse, .recordcontext .AspNet-TreeView-Expand
+{
+	display: none;	
+}
+
+/* Advanced search */
+a.expandsearchterm:before
+{
+	content: url(images/arrowRight.gif);
+	height: 15px;	
+	width: 15px;
+	vertical-align: middle;
+}
+
+a.expandsearchterm, 
+a.collapsesearchterm
+{
+	text-decoration: none;
+}
+
+a.collapsesearchterm:before
+{
+	content: url(images/arrowTop.gif);	
+	height: 15px;	
+	width: 15px;
+	vertical-align: middle;
+}
+
+
+/*
+ * Breadcrumb controls that appear on various pages. 
+ */
+.breadcrumb 
+{
+	font-size:1.2em;
+	font-weight:bold;
+	margin:5px 0;
+}
+
+.breadcrumb li:after
+{
+	content: " > ";
+}
+
+.breadcrumb a:after
+{
+	/* Clear content for FireFox */
+	content: "";
+}
